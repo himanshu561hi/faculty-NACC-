@@ -1,0 +1,28 @@
+# Python Byte-compiled / Cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual Environment (Avoid committing huge installation folders)
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables & Secrets (CRITICAL: Never commit credentials)
+.env
+
+# Vector Database (Exclude local platform-specific index binaries)
+chroma_db/
+
+# Local Documents
+# We track the 'pdfs/' directory via the .gitkeep file, but ignore all actual PDFs.
+pdfs/*
+!pdfs/.gitkeep
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
