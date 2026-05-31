@@ -1,0 +1,10 @@
+streamlit
+langchain
+chromadb
+sentence-transformers
+pypdf
+python-docx
+pandas
+python-dotenv
+ibm-watsonx-ai
+reportlab
